@@ -1,8 +1,7 @@
 const { Client } = require("pg");
 require('dotenv/config');
 
-const ELEFHANT_BD_URL = 
-process.env.ELEFHANT_BD_URL;
+const ELEFHANT_BD_URL = process.env.ELEFHANT_BD_URL;
 
 const select = async () => {
     const client = new Client(ELEFHANT_BD_URL);
